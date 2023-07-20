@@ -15,7 +15,9 @@ Quy uoc: 4 (for read), 2 (for write), 1 (for execute)
 chmod (-R) 640 <filepath>
 ```
 => user = 6 = 4+2: rw-
+
 => group = 4     : r--
+
 => other = 0     : ---
 # Switch to root user
 ```bash
